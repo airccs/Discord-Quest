@@ -1,4 +1,4 @@
-# Discord-Quest-s-
+# Discord-Quest
 Created to quickly complete Discord quests without running games or streams.
 
 > [!NOTE]
