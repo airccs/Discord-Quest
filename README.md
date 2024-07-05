@@ -1,21 +1,21 @@
 # Discord-Quest
-Created to quickly complete Discord quests without running games or streams.
+Создан для быстрого выполнения заданий Discord без запуска игр или потоков.
 
 > [!NOTE]
-> This no longer works in browser!
+> Это больше не работает в браузере!
 > 
-> This no longer works if you're alone in vc! Somebody else has to join you!
+> Это больше не работает, если вы один в vc! Кто-то еще должен присоединиться к вам!
 >
 
 > [!WARNING]
-> There are now two quest types ("stream" and "play")! Pay attention to the instructions!
+> Теперь есть два типа квестов ("стрим" и "игра")! Обращайте внимание на инструкции!
 >
 
-How to use this script:
-1. Accept a quest under User Settings -> Gift Inventory
-2. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> to open DevTools
-3. Go to the `Console` tab
-4. Paste the following code and hit enter:
+Как использовать этот скрипт:
+1. Примите квест в разделе Настройки пользователя -> Склад подарков
+2. Нажмите <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> чтобы открыть инструменты разработчика
+3. Перейдите в вкладку `Console` 
+4. Вставьте следующий код и нажмите клавишу Enter:
 <details>
 	<summary>Click to expand</summary>
 	
@@ -134,28 +134,27 @@ if(!isApp) {
 ```
 </details>
 
-5. Follow the printed instructions depending on what type of quest you have
-    - If your quest says to "play" the game, you can just wait and do nothing
-    - If your quest says to "stream" the game, join a vc with a friend or alt and stream any window
-7. Wait for 15 minutes
-8. You can now claim the reward in User Settings -> Gift Inventory!
+5. Следуйте инструкциям в зависимости от типа квеста.
+- Если в квесте сказано "играть", вы можете просто ждать и ничего не делать.
+- Если в задании сказано "стримить" игру, присоединитесь к vc с другом или вашим твинком и стримите в любом окне.
+7. Подождите 15 минут
+8. Теперь вы можете получить награду в Настройки пользователя -> Инвентарь подарков!
 
-You can track the progress by looking at the `Quest progress:` prints in the Console tab, or by reopening the Gift Inventory tab in settings.
+Вы можете отслеживать прогресс, глядя на `Quest progress:` отпечатки на вкладке "Console" или снова открыв вкладку "Инвентарь подарков" в настройках.
 
 ## FAQ
 
-**Q: Ctrl + Shift + I doesn't work**
+**Вопрос: Ctrl + Shift + не работает**
 
-A: Either download the [ptb client](https://discord.com/api/downloads/distributions/app/installers/latest?channel=ptb&platform=win&arch=x64), or use [this](https://www.reddit.com/r/discordapp/comments/sc61n3/comment/hu4fw5x/) to enable DevTools on stable
-
-
-**Q: I get an error saying "Unauthorized"**
-
-A: Discord has patched the script from working in browsers. Use the desktop app, or alternatively find some extension which lets you change your User-Agent and append the string `Electron/` anywhere in it.
-
-They have also started checking how many people are in the vc, so make sure you join it on at least 1 other account.
+Ответ: Загрузите [ptb client](https://discord.com/api/downloads/distributions/app/installers/latest?channel=ptb&platform=win&arch=x64), или использовать [это](https://www.reddit.com/r/discordapp/comments/sc61n3/comment/hu4fw5x/) чтобы включить инструменты разработчика в стабильной версии
 
 
-**Q: I get a different error**
+**Вопрос: Я получаю ошибку "Unauthorized"**
 
-A: Make sure you're copy/pasting the script correctly and that you've have done all the steps.
+Ответ: Discord исправил скрипт, который не работает в браузерах. Используйте настольное приложение или найдите какое-нибудь расширение, которое позволит вам изменить User-Agent и добавьте строку `Electron/` в любом месте.
+
+Разработчики также начали проверять, сколько человек находится в голосовом канале, поэтому убедитесь, что вы присоединились к нему как минимум на 1 другом аккаунте.
+
+**Вопрос: Я получаю другую ошибку**
+
+Ответ: Убедитесь, что вы правильно скопировали/вставили скрипт и выполнили все шаги.
