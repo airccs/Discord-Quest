@@ -17,7 +17,7 @@
 3. Перейдите в вкладку `Console` 
 4. Вставьте следующий код и нажмите клавишу Enter:
 <details>
-	<summary>Click to expand</summary>
+	<summary>Нажмите для просмотра</summary>
 	
 ```js
 let wpRequire;
