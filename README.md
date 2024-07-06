@@ -1,6 +1,8 @@
 # Discord-Quest
 Создан для быстрого выполнения заданий Discord без запуска игр или стримов.
 
+![Screnenshot](https://github.com/airccs/Discord-Quest/blob/main/example/photo.png)
+
 > [!NOTE]
 > Это больше не работает в браузере!
 > 
